@@ -7,6 +7,8 @@ module.exports = class Inventory extends BaseModel {
         super('inventory', '1.0.0');
 
         // Define properties.
+        this.hotelId = '';
+        this.date = new Date();
         this.margin = 0;
         this.autoloadROH = false;
         this.roomSold = 0;

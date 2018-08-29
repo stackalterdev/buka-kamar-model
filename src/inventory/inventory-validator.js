@@ -4,8 +4,8 @@ module.exports = function(data) {
     data.should.not.equal(null);
     data.should.instanceof(Object);
 
-    // data.should.have.property('username');
-    // data.username.should.instanceof(String);
+    data.should.have.property('date');
+    data.date.should.instanceof(Object);
 
     data.should.have.property('margin');
     data.margin.should.instanceof(Number);
